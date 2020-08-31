@@ -1,0 +1,15 @@
+npm install --save-dev eslint-plugin-security
+
+Add the following to your .eslintrc file:
+
+"plugins": [
+  "security"
+],
+"extends": [
+  "plugin:security/recommended"
+]
+
+yarn add @hapi/joi
+npm install js-sha512
+
+
